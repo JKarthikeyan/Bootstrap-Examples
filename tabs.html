@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tabs and Pills</title>
+	<meta charset="utf-8">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap-responsive.css">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="container">
+	<p class="lead">Tabs</p>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#tab1" data-toggle="tab">Link 1</a></li>
+		<li><a href="#tab2" data-toggle="tab">Link 2</a></li>
+		<li><a href="#tab3" data-toggle="tab">Link 3</a></li>
+		<li><a href="#tab4" data-toggle="tab">Link 4</a></li>
+		<li class="dropdown">
+			<a href="" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+			<ul class="dropdown-menu">
+				<li><a href="" tabindex="-1">Item 1</a></li>
+				<li><a href="" tabindex="-1">Item 2</a></li>
+				<li><a href="" tabindex="-1">Item 3</a></li>
+				<li><a href="" tabindex="-1">Item 4</a></li>
+				<li><a href="" tabindex="-1">Item 5</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab1">
+			<p>This is Tab 1 Content</p>
+		</div>
+		<div class="tab-pane" id="tab2">
+			<p>This is Tab 2 Content</p>
+		</div>
+		<div class="tab-pane" id="tab3">
+			<p>This is Tab 3 Content</p>
+		</div>
+		<div class="tab-pane" id="tab4">
+			<p>This is Tab 4 Content</p>
+		</div>
+	</div>
+	
+	<hr>
+
+	<p class="lead">Pills</p>
+	<ul class="nav nav-pills">
+		<li class="active"><a href="">Link 1</a></li>
+		<li><a href="">Link 2</a></li>
+		<li><a href="">Link 3</a></li>
+		<li><a href="">Link 4</a></li>
+		<li><a href="">Link 5</a></li>
+	</ul>
+
+	<hr>
+
+	<p class="lead">Tabs Left</p>
+	<div class="tabbable tabs-left">
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#tabl1" data-toggle="tab">Link 1</a></li>
+			<li><a href="#tabl2" data-toggle="tab">Link 2</a></li>
+			<li><a href="#tabl3" data-toggle="tab">Link 3</a></li>
+			<li><a href="#tabl4" data-toggle="tab">Link 4</a></li>
+			<li class="dropdown">
+				<a href="" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="" tabindex="-1">Item 1</a></li>
+					<li><a href="" tabindex="-1">Item 2</a></li>
+					<li><a href="" tabindex="-1">Item 3</a></li>
+					<li><a href="" tabindex="-1">Item 4</a></li>
+					<li><a href="" tabindex="-1">Item 5</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" id="tabl1">
+				<p>This is Tab 1 Content</p>
+			</div>
+			<div class="tab-pane" id="tabl2">
+				<p>This is Tab 2 Content</p>
+			</div>
+			<div class="tab-pane" id="tabl3">
+				<p>This is Tab 3 Content</p>
+			</div>
+			<div class="tab-pane" id="tabl4">
+				<p>This is Tab 4 Content</p>
+		</div>
+	</div>
+
+	
+		
+</div>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,575 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tbbuttons",
+				"tbbuttons:g	Bootstrap grouped buttons"
+			],
+			[
+				"loading",
+				"loading-button"
+			],
+			[
+				"lo",
+				"loadBtn"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"tbs",
+				"tbstarter	Bootstrap starter"
+			],
+			[
+				"div",
+				"DIV	Tag"
+			],
+			[
+				"script",
+				"script"
+			],
+			[
+				"f",
+				"f	Anonymous Function"
+			],
+			[
+				"foo",
+				"FOOTER	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "formElements.html",
+			"settings":
+			{
+				"buffer_size": 4475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<title>Bootstrap Components</title>\n	<meta charset=\"utf-8\">\n\n	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->\n	<!--[if lt IE 9]>\n		<script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n	<![endif]-->\n<link rel=\"stylesheet\" href=\"css/bootstrap.css\">\n<link rel=\"stylesheet\" href=\"css/bootstrap-responsive.css\">\n<link rel=\"stylesheet\" href=\"css/custom.css\">\n</head>\n<body>\n	<div class=\"container\">\n		<p class=\"lead\">Dropdowns</p>\n		<div class=\"dropdown\">\n			<a href=\"\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">DropDown <b class=\"caret\"></b></a>\n			<ul class=\"dropdown-menu\">\n				<li><a href=\"\" tabindex=\"-1\">item 1</a></li>\n				<li><a href=\"\" tabindex=\"-1\">item 2</a></li>\n				<li class=\"divider\"></li>\n				<li><a href=\"\" tabindex=\"-1\">item 3</a></li>\n				<li class=\"dropdown-submenu\">\n					<a href=\"\" tabindex=\"-1\">item 4</a>\n					<ul class=\"dropdown-menu\">\n						<li><a href=\"\">Sub-item 1</a></li>\n						<li><a href=\"\">Sub-item 2</a></li>\n						<li><a href=\"\">Sub-item 3</a></li>\n					</ul>\n				</li>\n			</ul>\n		</div>	\n\n		<hr>\n\n		<p class=\"lead\">Button Groups</p>\n\n		<div class=\"btn-toolbar\">\n			<div class=\"btn-group\" data-toggle=\"buttons-checkbox\">\n				<button class=\"btn btn-info\">Button</button>\n				<button class=\"btn btn-warning\">Button</button>\n				<button class=\"btn btn-success\">Button</button>\n			</div>\n			<div class=\"btn-group btn-group-vertical\" data-toggle=\"buttons-radio\">\n				<button class=\"btn\">Button</button>\n				<button class=\"btn\">Button</button>\n				<button class=\"btn\">Button</button>\n			</div>\n		</div>\n\n		<hr>\n		<p class=\"lead\">Button State</p>\n		<button class=\"btn\" type=\"button\" id=\"loading-button\" data-loading-text=\"Loading..\">Loading Button</button>\n\n		<hr>\n\n		<button class=\"btn\" data-toggle=\"button\">Toggle</button>\n\n		<hr>\n		<p class=\"lead\">Button Dropdown</p>\n\n		<div class=\"btn-group\">\n			<button class=\"btn\">Dropdown</button>\n			<button class=\"btn dropdown-toggle\" data-toggle=\"dropdown\"><b class=\"caret\"></b></button>\n			<ul class=\"dropdown-menu\">\n				<li><a href=\"\">Item 1</a></li>\n				<li><a href=\"\">Item 2</a></li>\n				<li><a href=\"\">Item 3</a></li>\n			</ul>\n		</div>\n	</div>\n	\n<script src=\"http://code.jquery.com/jquery.min.js\"></script>\n<script src=\"js/bootstrap.js\"></script>\n<script type=\"text/javascript\">\n	\n	$(\"#loading-button\").click(function() {\n		var btn = $(this);\n\n		btn.button('loading');\n\n		setTimeout(function() {\n			btn.button('reset');\n		}, 2000)\n	});\n</script>\n</body>\n</html>",
+			"file": "components.html",
+			"file_size": 2506,
+			"file_write_time": 1367112070000000,
+			"settings":
+			{
+				"buffer_size": 2507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[class*=\"span\"] {\n  background-color: #cdcdcd;\n}\n.dark {\n  background-color: #2ab4d5;\n}",
+			"file": "css/custom.css",
+			"file_size": 87,
+			"file_write_time": 1366920628000000,
+			"settings":
+			{
+				"buffer_size": 87,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"pack remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: CoffeScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"click",
+				"Snippet: click"
+			],
+			[
+				"snippet:j",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"syn javsc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"snipp tb dr",
+				"Snippet: Bootstrap button dropdowns"
+			],
+			[
+				"mana",
+				"Fetch: Manage"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"$.ea",
+				"Snippet: $.each()"
+			],
+			[
+				"$",
+				"Snippet: $.browser()"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"emmet:wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"syn th",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snippet: html",
+				"Snippet: html"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syn ja",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"syn markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"synt php",
+				"Set Syntax: PHP"
+			],
+			[
+				"side ",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/Base File.sublime-settings",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/karthikeyan/Bootstrap Examples/js/jquery.js",
+		"/Users/karthikeyan/Bootstrap Examples/button.html",
+		"/Users/karthikeyan/Bootstrap Examples/tables.html",
+		"/Users/karthikeyan/Bootstrap Examples/forms.html",
+		"/Users/karthikeyan/Bootstrap Examples/index.html",
+		"/Users/karthikeyan/Bootstrap Examples/bootstrap examples/index.html",
+		"/Users/karthikeyan/Testing Project/Bootstrap/test.js",
+		"/Users/karthikeyan/Testing Project/Bootstrap/test.html",
+		"/Users/karthikeyan/Downloads/oh-my-zsh-master/README.textile",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/Emmet/emmet/snippets.json",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/HTML/html_completions.py",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/Users/karthikeyan/Testing Project/Bootstrap/test.css",
+		"/Users/karthikeyan/Testing Project/bootstrap/test.css",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/Alignment/readme.creole",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default (OSX).sublime-keymap",
+		"/Users/karthikeyan/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"info",
+			"loading",
+			"toggle",
+			"Loading",
+			"info",
+			"btn",
+			" >",
+			"tabindex=\"-1\"",
+			"DropDown",
+			"password",
+			"Email",
+			"info",
+			"Label",
+			"Textbox",
+			"medium",
+			"inline",
+			"Radio",
+			"radio",
+			"music",
+			"primary",
+			"poloroid",
+			"circle",
+			"rounded",
+			"Inverse",
+			"inverse",
+			"reverse",
+			"Danger",
+			"danger",
+			"error",
+			"info",
+			"submit",
+			"caption",
+			"Heading",
+			"div",
+			"tab",
+			"html",
+			"!</",
+			"</html>",
+			"My",
+			"My Name is Karthikeyan Jayaraman.",
+			"My Name is Karthikeyan Jayaraman. \n",
+			"Not",
+			"Working",
+			"!",
+			"path",
+			"33 42",
+			"html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "formElements.html",
+					"settings":
+					{
+						"buffer_size": 4475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components.html",
+					"settings":
+					{
+						"buffer_size": 2507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2191,
+								2191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/custom.css",
+					"settings":
+					{
+						"buffer_size": 87,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"Bootstrap/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}

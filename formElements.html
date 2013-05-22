@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forms Using Bootstrap</title>
+	<meta charset="utf-8">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap-responsive.css">
+<link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+	<div class="container">
+		<p class="lead">Forms</p>
+		<form action="" class="form-inline">
+			<label for="input-text">Simple Text Input</label>
+			<input type="text" id="input-text" placeholder="Type Something..." />
+			<span class="help-inline">This is a Help Text</span>
+			<hr>
+
+			<p class="lead">Radio Buttons</p>
+			<label class="radio inline"><input type="radio" name="radio"/>Simple Radio</label>
+			<label class="radio inline"><input type="radio" name="radio" />Simple Radio</label>
+			<label class="radio inline"><input type="radio" name="radio" />Simple Radio</label>
+			
+			<hr>
+			<p class="lead">Checkboxes</p>
+			<label class="checkbox inline"><input type="checkbox" />Simple checkbox</label>
+			<label class="checkbox inline"><input type="checkbox" />Simple checkbox</label>
+			<label class="checkbox inline"><input type="checkbox" />Simple checkbox</label>
+			
+			<hr>
+			<p class="lead">Input Sizes</p>
+			<input type="text" class="input-mini" placeholder="mini-textbox">
+			<input type="text" class="input-small" placeholder="small-textbox">
+			<input type="text" class="input-medium" placeholder="medium-textbox">
+			<input type="text" class="input-large" placeholder="large-textbox">
+			<input type="text" class="input-xlarge" placeholder="xlarge-textbox">
+			<input type="text" class="input-xxlarge" placeholder="xxlarge-textbox">
+
+			<hr>
+
+			<p class="lead">Size based on Grid</p>
+			<input type="text" class="span4" placeholder="Span4 Textbox" />
+			<input type="text" class="span8"  placeholder="Span8 Textbox" />
+
+			<hr>
+
+			<p class="lead">Multiple Controls in a Single row</p>
+			<div class="controls controls-row">
+				<input type="text" class="span2" placeholder="Type Something...." />
+				<input type="text" class="span3" placeholder="Type Something...." />
+				<input type="text" class="span7" placeholder="Type Something...." />
+			</div>
+
+			<hr>
+			<p class="lead">Control Groups</p>
+			<div class="control-group success">
+				<label for="text-input" class="control-label">Success Input</label>
+					<div class="controls">
+						<input type="text" id="text-input" />
+					</div>
+			</div>
+
+			<div class="control-group info">
+				<label for="text-input" class="control-label">Info Input</label>
+					<div class="controls">
+						<input type="text" id="text-input" />
+					</div>
+			</div>
+
+			<div class="control-group warning">
+				<label for="text-input" class="control-label">Warning Input</label>
+					<div class="controls">
+						<input type="text" id="text-input" />
+					</div>
+			</div>
+
+			<div class="control-group error">
+				<label for="text-input" class="control-label">Error Input</label>
+					<div class="controls">
+						<input type="text" id="text-input" />
+					</div>
+			</div>
+
+			<hr>
+			 <p class="lead">Append Text Inputs</p>
+			 <div class="input-append input-prepend">
+			 	<span class="add-on">@</span>
+			 	<input type="text" placeholder="Enter" />
+			 	<button class="btn btn-info">Click here</button>
+			 	<button class="btn btn-danger"><i class="icon-remove icon-white"></i> Remove</button>
+			 </div>
+
+			 <hr>
+
+			 <p class="lead">Search Bar</p>
+			 <form action="" class="form-search">
+			 	<input type="text" class="search-query" />
+			 	<button class="btn">Search</button>
+			 </form>
+
+			<hr>
+			<p class="lead">Login Form</p>
+
+			<form action="" class="form-horizontal">
+				<div class="control-group">
+					<label for="email" class="control-label">Email</label>
+					<div class="controls">
+						<input type="text" placeholder="Enter Email...">
+					</div>
+				</div>
+				<div class="control-group">
+					<label for="password" class="control-label">Password</label>
+					<div class="controls">
+						<input type="password" id="password" placeholder="Enter Email...">
+					</div>
+				</div>
+
+				<div class="control-group">
+					<div class="controls">
+						<label for="" class="checkbox">
+							<input type="checkbox" />Remember Me
+						</label>
+						<button class="btn">Submit</button>
+					</div>
+				</div>
+			</form>
+			
+		</form>
+	</div>
+</body>
+</html>

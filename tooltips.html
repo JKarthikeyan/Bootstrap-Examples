@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tooltips - Bootstrap</title>
+	<meta charset="utf-8">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<div class="container">
+		<p class="lead">Tooltips</p>
+
+		<a href="#" data-placement="right" title="Toottip for Link" id="my-tooltip">Tooltip Here!</a>
+
+		<hr>
+
+		<p class="lead">Popovers</p>
+
+		<a href="#" id="my-popover" data-toggle="popover" title="First Pop-over" data-content="This is the popover content" class="btn btn-primary">Click me!</a>
+	</div>
+
+
+
+<!--Javascript-->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+	$("#my-tooltip").tooltip();
+	$("#my-popover").popover();
+
+</script>
+</body>
+</html>
